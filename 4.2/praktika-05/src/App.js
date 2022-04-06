@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
-
-import PostList from './components/PostList';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className='container'>
-      <div className='row'>
-        <PostList />
+      <div className="row">
+        <TodoList />
       </div>
     </div>
   );
